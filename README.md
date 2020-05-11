@@ -5,7 +5,7 @@
 
 ![docker](./img/docker-arch.jpg)
 ## 1. 安装docker
-### 1.1 linux服务器安装
+### 1.1 linux服务器
 ```sh
 # yum centos工具包 类似于 npm
 yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -16,11 +16,11 @@ yum-config-manager \
 # 安装docker ce社区版免费  ee企业版收费
 yum install -y docker-ce docker-ce-cli containerd.io
 ```
-### 1.2 mac安装
+### 1.2 mac
 - https://www.docker.com/products/docker-desktop
 
 ## 2. docker安装软件加速
-### 2.1 linux服务器安装
+### 2.1 linux服务器
 ```sh
 # 创建文件夹
 mkdir -p /etc/docker
