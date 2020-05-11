@@ -49,17 +49,6 @@ docker --help
 
 ### 3.2 镜像操作
 
-命令 | 含义 | 语法 |
-- | :-: | :-: | :-: | -:
-ls | 查看全部镜像 | docker image ls / docker images
-search | 查找镜像 | docker search [imageName]
-history | 查看镜像历史 | docker history [imageName]
-inspect | 显示一个或多个镜像详细信息 | docker inspect [imageName]
-pull | 拉取镜像 | docker pull [imageName]
-push | 推送一个镜像到镜像仓库 | docker push [imageName]
-rmi | 删除镜像 | docker rmi [imageName]/docker image rmi 2
-
-
 ### 3.3 容器操作
 
 
